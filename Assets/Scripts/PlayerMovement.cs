@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        Run();
+        Rush();
         FlipSprite();
         ClimbLadder();
     }
@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void Run()
+    void Rush()
     {   
         Vector2 playerVelocity = new Vector2 (moveInput.x*runSpeed, myRigidbody.velocity.y);
         myRigidbody.velocity = playerVelocity;
