@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -6564818022690970587}
   - component: {fileID: 8261841954011114807}
   - component: {fileID: 182256518736862714}
+  - component: {fileID: 8543893421924555214}
   m_Layer: 8
   m_Name: Jumpman (Player)
   m_TagString: Untagged
@@ -118,12 +119,12 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 8522139047194171272}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: ac31a78fc901d6f439b1ae2fb1d9cd9d, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.063527346, y: -0.054340124}
-  m_Size: {x: 0.510901, y: 0.8854451}
+  m_Offset: {x: -0.032041073, y: -0.054340124}
+  m_Size: {x: 0.55811024, y: 0.8854451}
   m_Direction: 0
 --- !u!50 &-6564818022690970587
 Rigidbody2D:
@@ -140,7 +141,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 8
+  m_GravityScale: 6
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -188,6 +189,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79c8547877e543d4c8a11e3f44ab5a68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runSpeed: 10
-  jumpSpeed: 25
+  runSpeed: 7
+  jumpSpeed: 20
   climbSpeed: 3
+--- !u!61 &8543893421924555214
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8522139047194171272}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.06143284, y: -0.4521793}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.37887, y: 0.095641375}
+  m_EdgeRadius: 0
