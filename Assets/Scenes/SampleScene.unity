@@ -6982,7 +6982,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9271795, y: 1}
+    m_SensorSize: {x: 1.9331962, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -7071,7 +7071,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9271795, y: 1}
+    m_SensorSize: {x: 1.9331962, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -7127,7 +7127,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9271795, y: 1}
+    m_SensorSize: {x: 1.9331962, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -7564,7 +7564,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 889625843}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.1807556, y: 0.05901766, z: -10}
+  m_LocalPosition: {x: -5.1566887, y: 0.059153795, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7748,7 +7748,7 @@ GameObject:
   - component: {fileID: 1456989482}
   m_Layer: 11
   m_Name: Smile
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10934,18 +10934,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 182256518736862714, guid: 38e11e5f6c57d4f45b23881d19a50338, type: 3}
-      propertyPath: climbSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 182256518736862714, guid: 38e11e5f6c57d4f45b23881d19a50338, type: 3}
-      propertyPath: dealthKick.x
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 182256518736862714, guid: 38e11e5f6c57d4f45b23881d19a50338, type: 3}
-      propertyPath: dealthKick.y
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 8522139047194171269, guid: 38e11e5f6c57d4f45b23881d19a50338, type: 3}
       propertyPath: m_RootOrder
       value: 2

@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]float jumpSpeed = 5f;
     [SerializeField]float climbSpeed = 5f;
     [SerializeField]Vector2 dealthKick = new Vector2(10f, 10f);
+    [SerializeField]GameObject bomb;
+    [SerializeField]Transform gun;
     Vector2 moveInput;
     Rigidbody2D myRigidbody;
     Animator myAnimator;
@@ -33,6 +35,12 @@ public class PlayerMovement : MonoBehaviour
         FlipSprite();
         ClimbLadder();
         Die();
+    }
+
+    void OnFire(InputValue value)
+    {
+        if(!isAlive) {return;}
+        Instantiate(bomb, gun.position, transform.rotation);
     }
 
     void OnMove(InputValue value)
