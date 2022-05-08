@@ -20,7 +20,7 @@ TagManager:
   - Enemies
   - Hazards
   - Bombs
-  - 
+  - Interactables
   - 
   - 
   - 
@@ -45,17 +45,20 @@ TagManager:
   - name: Background
     uniqueID: 1042086259
     locked: 0
-  - name: Water
-    uniqueID: 423353201
-    locked: 0
   - name: Platforms
     uniqueID: 4075872097
+    locked: 0
+  - name: Water
+    uniqueID: 423353201
     locked: 0
   - name: Ladder
     uniqueID: 2203759823
     locked: 0
   - name: Hazards
     uniqueID: 1377861267
+    locked: 0
+  - name: Interactables
+    uniqueID: 3532801973
     locked: 0
   - name: Enemies
     uniqueID: 4025507113
