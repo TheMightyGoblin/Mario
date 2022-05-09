@@ -23,6 +23,8 @@ public class LevelExit : MonoBehaviour
         {
             nextSceneIndex = 0;
         }
+        FindObjectOfType<ScenePersist>().ResetScenePersist();
         SceneManager.LoadScene(nextSceneIndex);
+
     }
 }
